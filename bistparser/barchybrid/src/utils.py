@@ -181,8 +181,8 @@ def write_conll(fn, conll_gen):
     fh.close()
 
 
-evalscript="~/bin/toolbin/conll/evaluation_script/conll17_ud_eval.py"
-weightfile="~/bin/toolbin/conll/evaluation_script/weights.clas"
+evalscript="../../../py/evaluation_script/conll17_ud_eval.py"
+weightfile="../../../py/evaluation_script/weights.clas"
 
 # runs eval script and returns weighted LAS
 def runeval(infile, outfile, verbose=True):
